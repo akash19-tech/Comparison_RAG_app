@@ -1,0 +1,12 @@
+
+# Project specific
+.env
+data/cache/
+*.db
+*.sqlite
+.chroma/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+notebooks/.ipynb_checkpoints/
