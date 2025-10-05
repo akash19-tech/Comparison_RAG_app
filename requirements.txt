@@ -24,7 +24,6 @@ plotly==5.18.0
 
 # Utilities
 pydantic==2.5.3
-pydantic-core==2.5.0
 tenacity==8.2.3
 tqdm==4.66.1
 
