@@ -7,6 +7,8 @@ from sentence_transformers import SentenceTransformer
 from typing import List, Union
 import numpy as np
 
+import os
+os.environ["HF_HOME"] = "./data/hf_cache"
 
 class EmbeddingGenerator:
     """Generates embeddings for text using sentence-transformers"""
