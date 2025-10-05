@@ -2,28 +2,27 @@
 streamlit==1.31.0
 python-dotenv==1.0.0
 
-# LLM & Embeddings
-groq==0.11.0
+# LLM & Embeddings - NO GROQ, using OpenAI instead
+openai==1.12.0
 sentence-transformers==2.3.1
 
-# Vector Database
-chromadb==0.4.22
+# Vector Database - Updated version
+chromadb==0.4.24
 
 # Web Scraping & Content Extraction
 requests==2.31.0
 beautifulsoup4==4.12.3
 trafilatura==1.6.3
 
-
-# Data Processing
-pandas==2.1.4
+# Data Processing - Updated for Python 3.13
+pandas==2.2.0
 numpy==1.26.3
 
 # Visualization
 plotly==5.18.0
 
-# Utilities
-pydantic==2.5.3
+# Utilities - Updated pydantic for Python 3.13
+pydantic==2.6.1
 tenacity==8.2.3
 tqdm==4.66.1
 
