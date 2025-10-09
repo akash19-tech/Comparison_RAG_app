@@ -21,3 +21,8 @@ cp .env.example .env
 
 # Run the app
 streamlit run app.py
+```
+## Live Server
+```bash
+https://comparison-rag-app.streamlit.app/
+```
